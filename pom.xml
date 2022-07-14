@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>paypal-uat</artifactId>
+	<artifactId>AmericanExpress-UAT</artifactId>
 	<packaging>war</packaging>
 	
 	<version>0.0.1-SNAPSHOT</version> 
 	
-	<name>paypal-uat</name>
+	<name>AmericanExpress-UAT</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -96,19 +96,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://34.227.229.172:8081/repository/paypal-uat_Release/</url>
+	      <url>http://34.207.147.206:8081/repository/AmericanExpress-UAT-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.227.229.172:8081/repository/Paypal-uat_Snapshot/</url>
+	      <url>http://34.207.147.206:8081/repository/AmericanExpress-UAT-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>paypal-uat</finalName>
+		<finalName>AmericanExpress-UAT</finalName>
 		
 		<plugins>
 			<plugin>
